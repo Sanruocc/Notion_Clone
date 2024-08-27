@@ -1,0 +1,27 @@
+/* styles.css */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --background-color: #f0f2f6;
+    --text-color: #31333f;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.progress-bar {
+    background-color: var(--secondary-color);
+    transition: width 0.5s;
+}
